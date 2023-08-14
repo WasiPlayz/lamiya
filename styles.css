@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eed0d0;
+}
+
+header {
+    background-color: #5a0a36;
+    color: rgb(56, 5, 63);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(245, 200, 200);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+ .profile-image {
+    width: 150px;
+    height: 150px;
+    background-color: #c05aaa;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+/* Other styles */
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.profile-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
+.achievement-card {
+    background-color: #a73a3a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-color: #c78686;
+    border-radius: 8px;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e09292;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #330327;
+    color: rgb(218, 123, 123);
+}
